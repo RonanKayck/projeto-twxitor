@@ -77,9 +77,32 @@ main#rin {
     height: 400px;
 }
 
-a.bot {
-    height: 22px;
-    background-color: #01EC01;
-    background-color: #034774;
-    background-position: left;
+main#bot {
+    height: 60px;
+    padding: 0px;
+    background-color: #10B4AB;
+}
+
+main#nagi {
+    background-image: linear-gradient(to bottom,#045589, #1E9105);
+    padding-top: 60px;
+    position: relative;
+    height: 400px;
+}
+
+a.bt {
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+    color: crimson;
+    border: 1px solid black;
+    background-color:#10B4AB;
+    display: block;
+    height: 60px;
+}
+
+a.bt:hover {
+    background-color: rgb(38, 136, 131);
+    color: black;
+    transition: 0.5s;
 }
