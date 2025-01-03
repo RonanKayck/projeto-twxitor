@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: #ED4E88;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+main#um {
+    background-image: linear-gradient(to right, #ED4E88, #01FDFB);
+    padding-top: 60px;
+    position: relative;
+    height: 400px;
+}
+
+img.image {
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main#dois {
+    background-image: linear-gradient(to bottom, #de0e18be, #91030aea);
+    padding-top: 60px;
+    position: relative;
+    height: 400px;
+}
+
+main#tres {
+    background-image: linear-gradient(to bottom, #034774, #DD46B7);
+    padding-top: 60px;
+    position: relative;
+    height: 400px;
+}
+
+main#quatro {
+    background-image: linear-gradient(to bottom, #7ECF48, #01EC01);
+    padding-top: 60px;
+    position: relative;
+    height: 400px;
+}
+
+main#reo {
+    background-image: linear-gradient(to bottom, #290063, #F404EF);
+    padding-top: 60px;
+    position: relative;
+    height: 400px;
+}
+
+main#rin {
+    background-image: linear-gradient(to bottom, #286E82, #10B6AD);
+    padding-top: 60px;
+    position: relative;
+    height: 400px;
+}
+
+a.bot {
+    height: 22px;
+    background-color: #01EC01;
+    background-color: #034774;
+    background-position: left;
+}
