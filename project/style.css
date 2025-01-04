@@ -90,6 +90,24 @@ main#nagi {
     height: 400px;
 }
 
+main#bachira {
+    background-image: linear-gradient(to bottom, #E4DD9C, #08145c);
+    padding-top: 60px;
+    position: relative;
+    height: 400px;
+}
+
+main#sae {
+    background-image: linear-gradient(to bottom, #E51BA3, #F6F0FB);
+    padding-top: 40px;
+    position: relative;
+    height: 400px;
+}
+
+img#sae {
+    height: 300px;
+}
+
 a.bt {
     text-align: center;
     padding-top: 30px;
