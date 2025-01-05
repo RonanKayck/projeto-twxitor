@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    background: url(imagens/foto-isagi.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6.2em;
+    background-image: linear-gradient(to bottom, #3700ffab, transparent) ;
+    color: #ffffff;
+    height: 220px;
+    padding-top: 100px;
+}
+
+section {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    box-shadow: 2px 3px 2px black;
+    border-radius: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    background-color: #ffffff00;
+    color: #ffffff;
+    text-shadow: 3px 3px 2px black;
+    width: 350px;
+    height: 100px;
+    border: 6px solid #ffffff;
+    padding: 100px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 3.2em;
+    font-weight: bolder;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+h2:hover {
+    background-color: #04A3FE;
+    color: white;
+    transition: 0.5s;
+    border: 2px solid white;
+}
